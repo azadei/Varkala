@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="top-bar">
+            <div class="icons">
+
+                <div class="items-center">
+
+                    <div class="social-icons">
+                        <div class="social-list">
+                            <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="phone" href="#"><i class="fa-solid fa-phone"></i></a>
+                            020-800-456-747
+                        </div>
+                    </div>
+                    <div class="center-text">
+                        <p class="free">Free in-store delivery</p>
+                    </div>
+                    <div class="language">
+                        <div class="language-icon">
+
+                            <a class="dropdown" href="#">English <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="language-menu">
+                                <a href="#">German</a>
+                                <a href="#">French</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="currency">
+                        <div class="currency-icon">
+                            <a class="dropdown" href="#">USD <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="currency-menu">
+                                <a href="#">EUR</a>
+                                <a href="#">GBP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="navbar">
+            <a class="navbar-brand" href="#"><b>Varkala</b></a>
+            <div class="navbar-collapse">
+                <div class="navbar-collapse-menu">
+                    <div class="menu-home-container">
+                        <div class="menu-home">Home<i class="fa-solid fa-chevron-down"></i>
+                            <div class="home-dropdown-container">
+                                <a class="home-dropdown" href="#">
+                                    Home 1 - Fashion
+                                </a>
+                                <a class="home-dropdown" href="#">
+                                    Home 2 - Fashion
+                                </a>
+                                <a class="home-dropdown" href="#">
+                                    Home 3 - Desing
+                                </a>
+                                <a class="home-dropdown" href="#">
+                                    Home 4 - Desing
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="menu-shop-container">
+                        <div class="menu-shop">Shop<i class="fa-solid fa-chevron-down"></i>
+                            <div class="shop-dropdown-container">
+                                <div class="shop-dropdown-submenu">
+                                    <p class="p1"><b>Show pages</b></p>
+                                    <a class="shop-dropdown" href="#">Full width</a>
+                                    <a class="shop-dropdown" href="#">Full width with category menu</a>
+                                    <a class="shop-dropdown" href="#">Full width with big products</a>
+                                    <a class="shop-dropdown" href="#">Fixed width</a>
+                                    <a class="shop-dropdown" href="#">Full width & side bar</a>
+                                    <a class="shop-dropdown" href="#">Full width & mansory layout</a>
+                                    <a class="shop-dropdown" href="#">Subcategoris</a>
+                                </div>
+                                <div class="shop-dropdown-submenu2">
+                                    <p class="p1"><b>Product pages</b></p>
+                                    <a class="shop-dropdown" href="#">Product with sticky info</a>
+                                    <a class="shop-dropdown" href="#">Product with background</a>
+                                    <a class="shop-dropdown" href="#">Product standard</a>
+                                </div>
+                                <div class="shop-dropdown-submenu3">
+                                    <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/kyle-loftus-596319-unsplash-cropped.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-icons-container">
+                        <div class="menu-icons">Icons<i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <div class="menu-pages-container">
+                        <div class="menu-pages">Pages<i class="fa-solid fa-chevron-down"></i>
+                            <div class="pages-dropdown-container">
+
+                                <div class="pages-dropdown-submenu">
+                                    <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/blog/christopher-campbell-28571-unsplash.jpg"
+                                        alt="">
+                                    <p class="p-pages1"><b>Homepage</b></p>
+                                    <a class="home-dropdown" href="#">
+                                        Home 1 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 2 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 3 - Desing
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 4 - Desing
+                                    </a>
+
+                                    <div class="pages-dropdown-submenu">
+                                        <p class="p-pages1"><b>Category</b></p>
+                                        <a class="pages-dropdown" href="#">Full width</a>
+                                        <a class="pages-dropdown" href="#">Full width with category menu</a>
+                                        <a class="pages-dropdown" href="#">Full width with big products</a>
+                                        <a class="pages-dropdown" href="#">Fixed width</a>
+                                        <a class="pages-dropdown" href="#">Full width & side bar</a>
+                                        <a class="pages-dropdown" href="#">Full width & mansory layout</a>
+                                        <a class="pages-dropdown" href="#">Subcategoris</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="pages-dropdown-submenu">
+                                    <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/blog/ian-dooley-347962-unsplash.jpg"
+                                        alt="">
+                                    <p class="p-pages1"><b>Homepage</b></p>
+                                    <a class="home-dropdown" href="#">
+                                        Home 1 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 2 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 3 - Desing
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 4 - Desing
+                                    </a>
+
+                                    <div class="pages-dropdown-submenu">
+                                        <p class="p-pages1"><b>Category</b></p>
+                                        <a class="pages-dropdown" href="#">Full width</a>
+                                        <a class="pages-dropdown" href="#">Full width with category menu</a>
+                                        <a class="pages-dropdown" href="#">Full width with big products</a>
+                                        <a class="pages-dropdown" href="#">Fixed width</a>
+                                        <a class="pages-dropdown" href="#">Full width & side bar</a>
+                                        <a class="pages-dropdown" href="#">Full width & mansory layout</a>
+                                        <a class="pages-dropdown" href="#">Subcategoris</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="pages-dropdown-submenu">
+                                    <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/blog/ian-dooley-347942-unsplash.jpg"
+                                        alt="">
+                                    <p class="p-pages1"><b>Homepage</b></p>
+                                    <a class="home-dropdown" href="#">
+                                        Home 1 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 2 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 3 - Desing
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 4 - Desing
+                                    </a>
+
+                                    <div class="pages-dropdown-submenu">
+                                        <p class="p-pages1"><b>Category</b></p>
+                                        <a class="pages-dropdown" href="#">Full width</a>
+                                        <a class="pages-dropdown" href="#">Full width with category menu</a>
+                                        <a class="pages-dropdown" href="#">Full width with big products</a>
+                                        <a class="pages-dropdown" href="#">Fixed width</a>
+                                        <a class="pages-dropdown" href="#">Full width & side bar</a>
+                                        <a class="pages-dropdown" href="#">Full width & mansory layout</a>
+                                        <a class="pages-dropdown" href="#">Subcategoris</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="pages-dropdown-submenu">
+                                    <img src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/blog/photo-1534126511673-b6899657816a.jpg"
+                                        alt="">
+                                    <p class="p-pages1"><b>Homepage</b></p>
+                                    <a class="home-dropdown" href="#">
+                                        Home 1 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 2 - Fashion
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 3 - Desing
+                                    </a>
+                                    <a class="home-dropdown" href="#">
+                                        Home 4 - Desing
+                                    </a>
+
+                                    <div class="pages-dropdown-submenu">
+                                        <p class="p-pages1"><b>Category</b></p>
+                                        <a class="pages-dropdown" href="#">Full width</a>
+                                        <a class="pages-dropdown" href="#">Full width with category menu</a>
+                                        <a class="pages-dropdown" href="#">Full width with big products</a>
+                                        <a class="pages-dropdown" href="#">Fixed width</a>
+                                        <a class="pages-dropdown" href="#">Full width & side bar</a>
+                                        <a class="pages-dropdown" href="#">Full width & mansory layout</a>
+                                        <a class="pages-dropdown" href="#">Subcategoris</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="menu-docs-container">
+                        <div class="menu-docs">Docs<i class="fa-solid fa-chevron-down"></i>
+                            <div class="docs-dropdown-container">
+                                <a class="docs-dropdown" href="#">
+                                    Introduction
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Directory structure
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Gulp
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Customizing CSS
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Credits
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Bootsrtap
+                                </a>
+                                <a class="docs-dropdown" href="#">
+                                    Theme
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-input">
+                    <input class="search" placeholder="Search" type="">
+                    <a class="search-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="rigt-nav">
+                    <div class="profile">
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="desing">
+                    <p class="desing-p">
+                        TIME IS ALMOST UP
+                    </p>
+                    <h2 class="desing-h2">Desing clocks on Sale</h2>
+                    <a class="desing-a" href="#"><b>START SHOPPING</b></a>
+                </div>
+                <div class="clocks2">
+                    <img class="clock-img"
+                        src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-transparent.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="desing">
+                    <p class="desing-p">
+                        Our all-time favourites
+                    </p>
+                    <h2 class="desing-h2">Black & White</h2>
+                    <a class="desing-a" href="#"><b>Discover more</b></a>
+                </div>
+                <div class="clocks2">
+                    <img class="clock-img"
+                        src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-transparent.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="desing">
+                    <p class="desing-p">
+                        Our all-time favourites
+                    </p>
+                    <h2 class="desing-h2">Boxxez</h2>
+                    <a class="desing-a" href="#"><b>Discover more</b></a>
+                </div>
+                <div class="clocks2">
+                    <img class="clock-img"
+                        src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-transparent.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="section1">
+        <div class="section-container">
+            <div class="row">
+                <div class="row-text">
+                    <p class="upper-text"><b>Top choices</b></p>
+                    <h3 id="h3-row">Popular this week</h3>
+                    <p class="row-lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugiat aut,
+                        voluptates at <br>ipsum itaque quam debitis. Unde, expedita architecto doloribus atque facere
+                        beatae</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="row-image1">
+                    <a href="#">
+                        <img src="img/book-sq.jpg" alt="">
+                    </a>
+                    <div class="row-image1-price">
+                        <a class="row-image1-name" href="#">
+                            <h3 id="row-image1-name">
+                                Furniture
+                                <br>
+                                source
+                                <br>
+                                book
+                            </h3>
+                            <p id="text-price">$39.90</p>
+                        </a>
+                        <p id="shop-now">
+                            <a class="shop-now" href=""><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row-image2">
+                    <div class="row-image2-name">
+                        <a id="row-image2" href="#">
+                            <h2 id="image2-h2">
+                                Norwegg
+                                <br>
+                                desing
+                                <br>
+                                chair
+                            </h2>
+                            <p class="row-image2-price">
+                                $139.90
+                            </p>
+                        </a>
+                        <p class="row-image2-shopnow">
+                            <a id="row-image2-shop" href="#"><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                    <div class="row-img2">
+                        <a id="row2img2" href="#"><img src="img/chair-2-sq.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="clock">
+                    <div class="clock-name">
+                        <a class="clock-a" href="">
+                            <h2>
+                                Sunn
+                                <br>
+                                Clock
+                            </h2>
+                            <p class="clock-price">
+                                $89.90
+                            </p>
+                        </a>
+                        <p>
+                            <a class="clock-shop-now" href=""><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                    <div class="clock-image">
+                        <a href="">
+                            <img class="clock-img" src="img/clock-sq.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <a class="boxes=a" href="">
+                        <img class="boxes-image" src="img/box-sq.jpg" alt="">
+                    </a>
+                    <div class="boxes-name">
+                        <a class="boxes-name-a" href="">
+                            <h3>
+                                Accessory
+                                <br>
+                                boxes
+                            </h3>
+                            <p class="boxes-price">
+                                $29.90
+                            </p>
+                        </a>
+                        <p>
+                            <a class="boxes-shop-now" href="#"><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row4">
+                <div class="clock2">
+                    <a href="#">
+                        <img class="clock2-image" src="img/clock2-sq.jpg" alt="">
+                    </a>
+                    <div class="clock2-name">
+                        <a class="clock-name-a" href="">
+                            <h3>
+                                Swiss
+                                <br>
+                                Minutes
+                                <br>
+                                Black
+                            </h3>
+                            <p class="clock2-price">$149.90</p>
+                        </a>
+                        <p>
+                            <a class="clock2-shop-now" href="#"><b>SHOP NOW</b></a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="korona">
+                    <div class="korona-name">
+                        <a class="korona-name-a" href="#">
+                            <h2>
+                                Korona
+                                <br>
+                                dining
+                                <br>
+                                room chair
+                            </h2>
+                            <p class="korona-price">$39.90</p>
+                        </a>
+                        <p>
+                            <a class="korona-shop-now" href="#"><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                    <div class="korona-image">
+                        <a href="#">
+                            <img class="korona-img" src="img/chair3-3-sq.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <div class="deal">
+        <div class="deal-container">
+            <div class="deal-row">
+                <div class="deal-row-items">
+                    <div class="items">
+                        <p class="subtitle">
+                            <b>DEAL OF THE WEEK</b>
+                        </p>
+                        <h3 class="subtitle2">Black and white Nordegg chair</h3>
+                        <p class="items-price">
+                            <del class="price1">
+                                $129.00
+                            </del>
+                            <span class="price2">$79</span>
+                        </p>
+                        <p class="off50">
+                            <span class="off"><b>$50 off</b></span>
+                        </p>
+                        <div class="whitebg">
+                            <div class="whitebg2">
+                                <div class="days">
+                                    <h6 class="dayscount">14</h6>
+                                    <span class="dayscount2">days</span>
+                                </div>
+                                <div class="hours">
+                                    <h6 class="hourscount">23</h6>
+                                    <span class="hourscount2">hours</span>
+                                </div>
+                                <div class="minutes">
+                                    <h6 class="minutescount">59</h6>
+                                    <span class="minutescount2">minutes</span>
+                                </div>
+                                <div class="seconds">
+                                    <h6 class="secondscount">59</h6>
+                                    <span class="secondscount2">seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="white-shopnow">
+                            <a class="white-a" href="#"><b>SHOP NOW</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="gray-chair">
+                    <img class="gray-chair-image" src="img/chair2-transparent.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrivals">
+        <div class="arrivals-container">
+            <h2 id="new-arrivals">New Arrivals</h2>
+            <p id="new-arrivals-p">One morning, when Gregor Samsa woke from troubled dreams, he found himself
+                transformed in his bed into a horrible <br> vermin. He lay on his armour-like back, and if he lifted his
+                head a little he could see his brown belly, slightly domed and <br> divided by arches into stiff
+                sections</p>
+            <div class="all-products">
+                <div class="products-line">
+                    <div class="products-list">
+                        <a id="products-link" href="#">All products</a>
+                        <a id="products-link" href="#">Chairs</a>
+                        <a id="products-link" href="#">Books</a>
+                        <a id="products-link" href="#">Clothes</a>
+                        <a id="products-link" href="#">Accessories</a>
+                    </div>
+                    <div class="all-products-link">
+                        <a class="products-a" href="#"><b>ALL PRODUCTS</b></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="new-products">
+                <div class="product-1">
+                    <div class="product1-2">
+                        <div class="product-1-image">
+                            <div class="product-1-bagde">Fresh</div>
+                            <a href="#">
+                                <div class="product-1-swap">
+                                    <img class="img-swap1" src="img/chair.jpg" alt="">
+                                    <img class="img-swap2" src="img/chair-2.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="product-1-name">
+                                <h3 class="product-name-h3">
+                                    <a class="h3-a" href="">Norvegg chair</a>
+                                </h3>
+                                <span class="produc-1-price">$40.00</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-1">
+                    <div class="product1-2">
+                        <div class="product-1-image">
+                            <div class="product-1-bagde"></div>
+                            <a href="#">
+                                <div class="product-1-swap">
+                                    <img class="img-swap1" src="img/book.jpg" alt="">
+                                    <img class="img-swap2" src="img/book-2.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="product-1-name">
+                                <h3 class="product-name-h3">
+                                    <a class="h3-a" href="">Book</a>
+                                </h3>
+                                <span class="produc-1-price">$40.00</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-1">
+                    <div class="product1-2">
+                        <div class="product-1-image">
+                            <div class="product-1-bagde">Sale</div>
+                            <a href="#">
+                                <div class="product-1-swap">
+                                    <img class="img-swap1" src="img/chair2.jpg" alt="">
+                                    <img class="img-swap2" src="img/chair2-2.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="product-1-name">
+                                <h3 class="product-name-h3">
+                                    <a class="h3-a" href="">Another chair</a>
+                                </h3>
+                                <span class="produc-1-price">$40.00</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-1">
+                    <div class="product1-2">
+                        <div class="product-1-image">
+                            <div class="product-1-bagde"></div>
+                            <a href="#">
+                                <div class="product-1-swap">
+                                    <img class="img-swap1" src="img/chair3.jpg" alt="">
+                                    <img class="img-swap2" src="img/chair3-3.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="product-1-name">
+                                <h3 class="product-name-h3">
+                                    <a class="h3-a" href="">Your new chair</a>
+                                </h3>
+                                <span class="produc-1-price">$40.00</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sales-container">
+        <div class="summer">
+            <div class="summer-sales">
+                <img class="summer-img" src="img/chair-transparent.png" alt="">
+                <div class="sales">
+                    <h4 class="sales-h4"><b>Summer Sales</b></h4>
+                    <h5 class="sales-h5">Our biggest sales this year — up to 60% off!</h5>
+                    <a class="sales-a" href="#">START SHOPPING</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-1">
+            <div class="foot-container1">
+                <div class="foot-row1">
+                    <div class="box-1">
+                        <div class="truck">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="box1-text">
+                            <h6 class="box-1-h6">Free shipping & return</h6>
+                            <p class="box-1-p">Free Shipping over $300</p>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="truck">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="box1-text">
+                            <h6 class="box-1-h6">Money back guarantee</h6>
+                            <p class="box-1-p">30 Days Money Back Guarantee</p>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="truck">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="box1-text">
+                            <h6 class="box-1-h6">Best prices</h6>
+                            <p class="box-1-p">Always the best prices</p>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="truck">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="box1-text">
+                            <h6 class="box-1-h6">020-800-456-747</h6>
+                            <p class="box-1-p">24/7 Available Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="footer-2-container">
+                <div class="row2-footer">
+                    <div class="row2-col1">
+                        <h6 class="r2-c1-h6">Be in touch</h6>
+                        <p class="r2-c1-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque
+                            temporibus.</p>
+                        <form action="#" id="newsform">
+                            <div class="form-input">
+                                <input class="input1" type="email" placeholder="Your email adress">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row2-col2-1">
+                        <div class="row2-col2-2">
+                            <div class="row2-box1">
+                                <div class="box1-1">
+                                    <h6 class="box-shop">
+                                        Shop
+                                    </h6>
+                                    <div class="box-list">
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">For Women</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">For Men</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Stores</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Our Blog</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Shop</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="box1-1">
+                                    <h6 class="box-shop">
+                                        Company
+                                    </h6>
+                                    <div class="box-list">
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Login</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Register</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Wishlist</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Our Products</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Checkouts</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="box1-1">
+                                    <h6 class="box-shop">
+                                        Your Account
+                                    </h6>
+                                    <div class="box-list">
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Login</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Register</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Wishlist</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Our Products</a>
+                                        </div>
+                                        <div class="box-list-item">
+                                            <a class="list-item1" href="#">Checkouts</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="row2-box1">
+                                <div class="box1-1"></div>
+                            </div>
+                            <div class="row2-box1">
+                                <div class="box1-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="container3">
+                <div class="footer3-row">
+                    <div class="f3-r1">
+                        <p class="f3-r1-p">© 2020 Your company. All rights reserved.</p>
+                    </div>
+                    <div class="f3-r2">
+                        <div class="f3-r2-a">
+                            <a class="r2-a1" href="#">Terms & Conditions</a>
+                            <a class="r2-a2" href="#">Privacy & cookies</a>
+                            <a class="r2-a3" href="#">Accessibility</a>
+                            <a class="r2-a4" href="#">Customer Data Promise</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
